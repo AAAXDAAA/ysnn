@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD com.example.Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysnn.api.mapper.TopicSettingEntityMapper">
+    <resultMap id="BaseResultMapper" type="com.ysnn.api.entity.TopicSettingEntity">
+        <result property="topic" column="topic"/>
+        <result property="date" column="date"/>
+        <result property="adminname" column="adminname"/>
+        <result property="isuse" column="isuse"/>
+    </resultMap>
+</mapper>

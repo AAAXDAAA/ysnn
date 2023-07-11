@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD com.example.Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ysnn.api.mapper.AccoutsbookEntityMapper">
+    <resultMap id="BaseResultMapper" type="com.ysnn.api.entity.AccountsBookEntity">
+        <result property="uid" column="uid"/>
+        <result property="date" column="date"/>
+        <result property="income" column="income"/>
+        <result property="pay" column="pay"/>
+        <result property="incomedetails" column="incomedetails"/>
+        <result property="paydetails" column="paydetails"/>
+        <result property="mouthincome" column="mouthincome"/>
+        <result property="mouthpay" column="mouthpay"/>
+        <result property="mouthtatol" column="mouthtatol"/>
+    </resultMap>
+
+</mapper>
